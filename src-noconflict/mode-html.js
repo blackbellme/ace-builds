@@ -1481,6 +1481,12 @@ var HtmlHighlightRules = function () {
         attributes: [{
                 include: "tag_whitespace"
             }, {
+                token: "support.power-block",
+                regex: "power-[a-z]+=\"[a-z0-9]+\"",
+            }, {
+                token: "support.power-block",
+                regex: "aspect-ratio=\"[0-9\\s]+\"",
+            }, {
                 token: "entity.other.attribute-name.xml",
                 regex: "[-_a-zA-Z0-9:.]+"
             }, {
